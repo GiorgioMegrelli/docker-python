@@ -1,5 +1,8 @@
 # Docker for Python
 
+> [!NOTE]
+> Some Python versions may cause errors related to missing specific archives. This issue can be resolved with a minor change in _tgz_ archive.
+
 A Dockerfile that attempts to install the Python 3.x distribution from all available versions listed on https://www.python.org/ftp/python/.
 It downloads the source code from the website and installs it locally using the `make` command.
 
